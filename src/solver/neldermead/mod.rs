@@ -47,7 +47,7 @@ pub struct NelderMead<P, F> {
     /// sigma
     sigma: F,
     /// parameters
-    params: Vec<(P, F)>,
+    pub params: Vec<(P, F)>,
     /// Sample standard deviation tolerance
     sd_tolerance: F,
 }
